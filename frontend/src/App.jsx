@@ -1,13 +1,14 @@
 import { useState } from 'react'
 import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
+import Home from "./pages/Home";
 import './App.css'
 
 function App() {
   
   return (
     <>
-    <Navbar></Navbar>
-     <h1 class="text-x1 font-bold text-red-500">Hello Welcome to Rakibe Dynamics </h1>
+    <Home></Home>
     </>
   )
 }
