@@ -16,7 +16,7 @@ function Getintouch() {
           <img
             src={git} // Replace with actual image path
             alt="Contact Illustration"
-            className="w-full"
+            className="w-3/4 mx-auto"
           />
         </div>
 
@@ -38,7 +38,7 @@ function Getintouch() {
             {/* Phone */}
             <div className="flex flex-col items-center">
               <img src={call} alt="Call Icon" className="w-8 h-8" />
-              <p className="mt-2 text-sm">+92 323-6572961</p>
+              <p className="mt-2 text-sm">+91 89752 55963</p>
             </div>
 
             {/* Location */}

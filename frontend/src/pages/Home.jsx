@@ -13,9 +13,7 @@ import icon5 from "../assets/icons/solution_design.svg";
 import icon6 from "../assets/icons/cloud_computing.svg";
 import Card from "../components/Card";
 
-
 function Home() {
-
     const cards = [
         {
             icon: icon1,
@@ -59,27 +57,27 @@ function Home() {
             <Navbar />
             <div className="w-full min-h-screen flex flex-col items-center justify-start bg-gray-50 mt-3">
                 {/* Hero Section */}
-                <div className="w-[1280px] mx-auto flex items-start gap-[65px] mt-12">
-                    <div className="w-[744px] flex-col justify-start items-start gap-[30px]">
-                        <div className="self-stretch flex-col justify-start items-start gap-2">
+                <div className="w-full max-w-screen-xl mx-auto flex flex-col lg:flex-row items-start gap-12 mt-12 px-6">
+                    <div className="flex-1 flex flex-col justify-start items-start gap-4">
+                        <div className="flex flex-col justify-start items-start gap-2">
                             <div className="py-2.5 flex items-center gap-2.5">
                                 <div className="text-left">
-                                    <span className="bg-gradient-to-r from-[#0149ad] to-[#072b64] bg-clip-text text-transparent text-[58px] font-light font-['DM Sans'] leading-[69.60px]">
+                                    <span className="bg-gradient-to-r from-[#0149ad] to-[#072b64] bg-clip-text text-transparent text-3xl md:text-5xl lg:text-5xl font-light font-['DM Sans'] leading-tight">
                                         Empowering Your&nbsp;
                                     </span>
-                                    <span className="bg-gradient-to-r from-[#072b64] to-[#0149ad] bg-clip-text text-transparent text-[58px] font-bold font-['DM Sans'] leading-[69.60px]">
+                                    <span className="bg-gradient-to-r from-[#072b64] to-[#0149ad] bg-clip-text text-transparent text-3xl md:text-5xl lg:text-5xl font-bold font-['DM Sans'] leading-tight">
                                         Business&nbsp;
                                     </span>
                                     <br />
-                                    <span className="text-[#0149ad] text-[58px] font-light font-['DM Sans'] leading-[69.60px]">
+                                    <span className="text-[#0149ad] text-4xl md:text-5xl lg:text-5xl font-light font-['DM Sans'] leading-tight">
                                         with&nbsp;
                                     </span>
-                                    <span className="bg-gradient-to-r from-[#0149ad] to-[#072b64] bg-clip-text text-transparent text-[58px] font-bold font-['DM Sans'] leading-[69.60px]">
+                                    <span className="bg-gradient-to-r from-[#0149ad] to-[#072b64] bg-clip-text text-transparent text-3xl md:text-5xl lg:text-5xl font-bold font-['DM Sans'] leading-tight">
                                         Cutting-Edge Technology
                                     </span>
                                 </div>
                             </div>
-                            <div className="text-black/75 text-xl font-normal font-['Poppins'] text-left leading-6 mt-4">
+                            <div className="text-black/75 text-base md:text-lg font-normal font-['Poppins'] text-left leading-6 mt-4">
                                 At Rakibe Dynamics, we believe in the power of technology to
                                 drive business growth and success. Our aim is to provide
                                 innovative software solutions that streamline processes, improve
@@ -87,28 +85,28 @@ function Home() {
                             </div>
                         </div>
                         <div className="w-[213px] h-[55px] px-[39px] py-2 bg-[#0149ad] rounded-[29px] flex justify-left items-center mt-5">
-                            <div className="text-center text-white text-2xl font-bold font-['Cabin']">
+                            <div className="text-center text-white text-xl font-bold font-['Cabin']">
                                 Get Started
                             </div>
                         </div>
                     </div>
-                    <div className="w-[524px] h-[455px] flex justify-center items-center">
+                    <div className="w-full lg:w-[524px] h-auto flex justify-center items-center">
                         <img
                             src={hero_image}
                             alt="Empowering Technology"
-                            className="w-full h-full object-cover rounded-lg"
+                            className="w-full h-auto object-cover rounded-lg"
                         />
                     </div>
                 </div>
 
                 {/* New Section */}
-                <div className="w-[1280px] mx-auto flex items-center gap-[65px] mt-20">
+                <div className="w-full max-w-screen-xl mx-auto flex flex-col lg:flex-row items-center gap-12 mt-20 px-6">
                     {/* Text Section */}
-                    <div className="w-[600px] flex flex-col items-center">
-                        <h2 className="text-[#0049b1] text-3xl font-bold font-['DM Sans'] text-center leading-[50px]">
+                    <div className="flex-1 flex flex-col items-center text-center">
+                        <h2 className="text-[#0049b1] text-3xl md:text-4xl lg:text-3xl font-bold font-['DM Sans'] leading-tight">
                             Scalable, Secure, and Reliable Software Solutions
                         </h2>
-                        <p className="text-black/90 text-lg font-normal font-['DM Sans'] mt-4 text-center leading-7">
+                        <p className="text-black/90 text-base md:text-lg font-normal font-['DM Sans'] mt-4 text-center leading-7">
                             We believe in providing solutions that grow with your business. Our
                             software is designed to be scalable, secure, and reliable, ensuring
                             that you can meet the changing demands of your business with ease.
@@ -119,32 +117,32 @@ function Home() {
                     </div>
 
                     {/* Image Section */}
-                    <div className="w-[524px] h-[455px] flex justify-center items-center">
+                    <div className="w-full lg:w-[524px] h-auto flex justify-center items-center">
                         <img
-                            src={section_1} // Replace with your actual image path
+                            src={section_1}
                             alt="Scalable Solutions"
-                            className="w-full h-full object-contain"
+                            className="w-full h-auto object-contain"
                         />
                     </div>
                 </div>
 
-                {/* New Section -2  */}
-                <div className="w-[1280px] mx-auto flex items-center gap-[65px] mt-20">
+                {/* New Section -2 */}
+                <div className="w-full max-w-screen-xl mx-auto flex flex-col lg:flex-row items-center gap-12 mt-20 px-6">
                     {/* Image Section */}
-                    <div className="w-[524px] h-[455px] flex justify-center items-center">
+                    <div className="w-full lg:w-[524px] h-auto flex justify-center items-center">
                         <img
-                            src={section_2} // Replace with your actual image path
+                            src={section_2}
                             alt="Scalable Solutions"
-                            className="w-full h-full object-contain"
+                            className="w-full h-auto object-contain"
                         />
                     </div>
 
                     {/* Text Section */}
-                    <div className="w-[600px] flex flex-col items-center">
-                        <h2 className="text-[#0049b1] text-3xl font-bold font-['DM Sans'] text-center leading-[50px]">
+                    <div className="flex-1 flex flex-col items-center text-center">
+                        <h2 className="text-[#0049b1] text-3xl md:text-4xl lg:text-3xl font-bold font-['DM Sans'] leading-tight">
                             Transform Your Business with Atinity's Expertise
                         </h2>
-                        <p className="text-black/90 text-lg font-normal font-['DM Sans'] mt-4 text-center leading-7">
+                        <p className="text-black/90 text-base md:text-lg font-normal font-['DM Sans'] mt-4 text-center leading-7">
                             We are here to help you unlock your business's full potential. With our innovative solutions, skilled professionals, and commitment to customer service, Atinity is the partner you need to drive your business success.
                         </p>
                         <button className="w-[213px] h-[55px] px-[39px] py-2 bg-[#0149ad] rounded-[29px] flex justify-center items-center mt-5 text-white text-xl font-bold font-['Cabin']">
@@ -153,13 +151,14 @@ function Home() {
                     </div>
                 </div>
 
-                {/* New Section-3  */}
-                <div className="w-[1280px] mx-auto flex items-center gap-[65px] mt-20">
+                {/* New Section -3 */}
+                <div className="w-full max-w-screen-xl mx-auto flex flex-col lg:flex-row items-center gap-12 mt-20 px-6">
                     {/* Text Section */}
-                    <div className="w-[600px] flex flex-col items-center">
-                        <h2 className="text-[#0049b1] text-3xl font-bold font-['DM Sans'] text-center leading-[50px]">
-                            A Team of Skilled Professionals at Your Service                        </h2>
-                        <p className="text-black/90 text-lg font-normal font-['DM Sans'] mt-4 text-center leading-7">
+                    <div className="flex-1 flex flex-col items-center text-center">
+                        <h2 className="text-[#0049b1] text-3xl md:text-4xl lg:text-3xl font-bold font-['DM Sans'] leading-tight">
+                            A Team of Skilled Professionals at Your Service
+                        </h2>
+                        <p className="text-black/90 text-base md:text-lg font-normal font-['DM Sans'] mt-4 text-center leading-7">
                             Our team is dedicated to helping our clients achieve their goals. Whether you need a custom software solution, help with a design, or need attractive web or app, we are here to help.
                         </p>
                         <button className="w-[213px] h-[55px] px-[39px] py-2 bg-[#0149ad] rounded-[29px] flex justify-center items-center mt-5 text-white text-xl font-bold font-['Cabin']">
@@ -168,17 +167,20 @@ function Home() {
                     </div>
 
                     {/* Image Section */}
-                    <div className="w-[524px] h-[455px] flex justify-center items-center">
+                    <div className="w-full lg:w-[524px] h-auto flex justify-center items-center">
                         <img
-                            src={section_3} // Replace with your actual image path
+                            src={section_3}
                             alt="Scalable Solutions"
-                            className="w-full h-full object-contain"
+                            className="w-full h-auto object-contain"
                         />
                     </div>
                 </div>
 
-                <div className="w-full bg-gray-50 py-10 flex flex-col items-center">
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-10">
+                <div className="w-full max-w-screen-xl mx-auto mt-20 px-6 text-center">
+                    <h2 className="text-[#0049b1] text-3xl md:text-4xl lg:text-4xl font-bold font-['DM Sans'] leading-tight">
+                        Our Expertise
+                    </h2>
+                    <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
                         {cards.map((card, index) => (
                             <Card
                                 key={index}
@@ -188,10 +190,11 @@ function Home() {
                             />
                         ))}
                     </div>
-                    <button className="mt-8 w-[213px] h-[55px] px-[39px] py-2 bg-[#0149ad] rounded-[29px] flex justify-center items-center text-white text-xl font-bold font-['Cabin']">
+                    
+                </div>
+                <button className="mt-8 w-[213px] h-[55px] px-[39px] mb-5 py-2 bg-[#0149ad] rounded-[29px] flex justify-center items-center text-white text-xl font-bold font-['Cabin']">
                         Learn More
                     </button>
-                </div>
             </div>
             <Footer />
         </>

@@ -6,15 +6,13 @@ import Aboutus from './pages/Aboutus';
 import Services from './pages/Services';
 import Getintouch from './pages/Getintouch';
 import './App.css'
+import AppRoutes from './AppRoutes';
 
 function App() {
   
   return (
     <>
-    <Getintouch></Getintouch>
-    {/* <Services></Services> */}
-    {/* <Aboutus></Aboutus> */}
-    {/* <Home></Home> */}
+    <AppRoutes/>
     </>
   )
 }
