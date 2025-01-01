@@ -34,7 +34,7 @@ function Footer() {
                     <a href="/projects" className="text-navy-900 hover:text-blue-600 text-lg sm:text-xl font-['Raleway']">
                         Projects
                     </a>
-                    <a href="/contact" className="text-navy-900 hover:text-blue-600 text-lg sm:text-xl font-['Raleway']">
+                    <a href="/get-in-touch" className="text-navy-900 hover:text-blue-600 text-lg sm:text-xl font-['Raleway']">
                         Get In Touch
                     </a>
                 </nav>
