@@ -12,11 +12,11 @@ function Getintouch() {
       <Navbar />
       <div className="flex flex-col items-center bg-white">
         {/* Illustration */}
-        <div className="w-full max-w-3xl mt-10 px-4">
+        <div className="w-full max-w-3xl  px-4">
           <img
             src={git}
             alt="Contact Illustration"
-            className="w-3/4 mx-auto sm:w-2/3"
+            className="w-1/2 mx-auto sm:w-1/3"
           />
         </div>
 
@@ -31,14 +31,25 @@ function Getintouch() {
           <div className="flex flex-wrap justify-center gap-8 mt-6 text-blue-700">
             {/* Email */}
             <div className="flex flex-col items-center w-1/2 sm:w-auto">
-              <img src={mail} alt="Mail Icon" className="w-8 h-8" />
-              <p className="mt-2 text-sm">hr.rakibedynamics@gmail.com</p>
+              <a href="mailto:hr.rakibedynamics@gmail.com">
+                <img src={mail} alt="Mail Icon" className="w-8 h-8" />
+              </a>
+              <a
+                href="mailto:hr.rakibedynamics@gmail.com"
+                className="mt-2 text-sm"
+              >
+                hr.rakibedynamics@gmail.com
+              </a>
             </div>
 
             {/* Phone */}
             <div className="flex flex-col items-center w-1/2 sm:w-auto">
-              <img src={call} alt="Call Icon" className="w-8 h-8" />
-              <p className="mt-2 text-sm">+91 89752 55963</p>
+              <a href="tel:+918975255963">
+                <img src={call} alt="Call Icon" className="w-8 h-8" />
+              </a>
+              <a href="tel:+918975255963" className="mt-2 text-sm">
+                +91 89752 55963
+              </a>
             </div>
 
             {/* Location */}
