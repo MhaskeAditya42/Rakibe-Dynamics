@@ -58,7 +58,7 @@ function Footer() {
             </div>
 
             {/* Social Media Links */}
-            <div className="flex justify-center sm:justify-center mt-8 space-x-4">
+            {/* <div className="flex justify-center sm:justify-center mt-8 space-x-4">
                 <a href="#" className="rounded-full bg-white p-2 shadow-md hover:bg-gray-100">
                     <img src={linkedIn} alt="LinkedIn" className="w-6 sm:w-8" />
                 </a>
@@ -71,7 +71,7 @@ function Footer() {
                 <a href="#" className="rounded-full bg-white p-2 shadow-md hover:bg-gray-100">
                     <img src={fiverr} alt="Fiverr" className="w-6 sm:w-8" />
                 </a>
-            </div>
+            </div> */}
 
             {/* Copyright */}
             <div className="mt-8 text-center text-sm sm:text-base text-navy-900">

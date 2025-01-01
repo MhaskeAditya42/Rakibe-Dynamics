@@ -85,7 +85,7 @@ function Home() {
                             </div>
                         </div>
                         <div className="w-[213px] h-[55px] px-[39px] py-2 bg-[#0149ad] rounded-[29px] flex justify-left items-center mt-5">
-                            <div className="text-center text-white text-xl font-bold font-['Cabin']">
+                            <div className="text-center text-white text-xl font-bold font-['Cabin'] ml-4">
                                 Get Started
                             </div>
                         </div>
