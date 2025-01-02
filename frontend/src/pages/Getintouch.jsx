@@ -54,7 +54,15 @@ function Getintouch() {
 
             {/* Location */}
             <div className="flex flex-col items-center w-full sm:w-auto">
-              <img src={location} alt="Location Icon" className="w-8 h-8" />
+            <a
+                  href="https://maps.app.goo.gl/6kQWDUvKM1JePm9T7"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline text-blue-700"
+                >
+                  <img src={location} alt="Location Icon" className="w-8 h-8" />
+                </a>
+              
               <p className="mt-2 text-sm text-center">
                 <a
                   href="https://maps.app.goo.gl/6kQWDUvKM1JePm9T7"
